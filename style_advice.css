@@ -21,6 +21,11 @@ body {
   width: 100%;
 }
 
+.button_up img {
+  width: 3em;
+  hyphens: 3em;
+}
+
 .article img {
    width: 100%;
 }
@@ -28,6 +33,18 @@ body {
 .article hr {
 
 }
+
+.verh {
+   display: -webkit-inline-flex;
+  display: inline-flex;
+  size: 100%;
+}
+
+.verh img {
+  width: 3rem;
+  height: 3rem;
+}
+
 
 .article {
   align-items: center;
@@ -48,12 +65,13 @@ body {
   font-family: 'Castoro', serif;
   font-size: 1.1em;
 }
-.copy li{
+.copy li a{
   font-size: 0.9em;
    line-height: 1.7em;
    color: #FFB6C1;
    text-align: left;
    font-family: 'Nerko One', cursive;
+   text-transform: uppercase;
 }
 
 .read-more-trigger {
