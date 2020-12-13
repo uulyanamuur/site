@@ -14,9 +14,25 @@ body {
   background: #cecece;
 }
 
+.verh {
+   display: -webkit-inline-flex;
+  display: inline-flex;
+  size: 100%;
+}
+
+.verh img {
+  width: 3rem;
+  height: 3rem;
+}
+
  footer {
    background:  #2f4f4f;
    padding: 24px 0;
+}
+
+.button_up img {
+  width: 3em;
+  height: 3em;
 }
 
 .copy h4{
@@ -24,12 +40,13 @@ body {
   font-family: 'Castoro', serif;
   font-size: 1.1em;
 }
-.copy li{
+.copy li a{
   font-size: 0.9em;
    line-height: 1.7em;
    color: #FFB6C1;
    text-align: left;
    font-family: 'Nerko One', cursive;
+   text-transform: uppercase;
 }
 
 .table {
@@ -47,6 +64,13 @@ body {
 	 	padding: 10px;
 		border: 2px solid #C5CACE;
 }
+
+.table td {
+    font-size: 20px;
+    color: #245e49;
+}
+
+
 @media screen and (max-width: 600px) {
 .table {
 		border: 0;
