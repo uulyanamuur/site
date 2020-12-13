@@ -1,0 +1,183 @@
+body {
+  background-color: #a87a7a;
+  color: #777;
+  padding: 4em;
+  font-family: sans-serif;
+}
+
+.page h1 {
+  color: #2f4f4f;
+}
+
+.page {
+  padding: 2em;
+  background: #cecece;
+}
+
+ footer {
+   background:  #2f4f4f;
+   padding: 24px 0;
+}
+
+.copy h4{
+  padding-left: 3%;
+  font-family: 'Castoro', serif;
+  font-size: 1.1em;
+}
+.copy li a{
+  font-size: 0.9em;
+   line-height: 1.7em;
+   color: #FFB6C1;
+   text-align: left;
+   font-family: 'Nerko One', cursive;
+   text-transform: uppercase;
+}
+
+.top { 
+      padding-right: 20px; 
+      background: #261F41; 
+      text-align: right;
+}
+         
+.main {
+  margin: 0 auto; 
+  width: 50%;
+  background-color: #E5ECEB;
+  padding: 3rem; /* отступы для текста */
+}
+
+.verh {
+  text-align: center;
+}
+
+.verh img {
+  margin: 0 auto;
+  width: 40%;
+}
+
+.button_up img {
+  width: 3em;
+  hyphens: 3em;
+}
+
+.home {
+   display: -webkit-inline-flex;
+  display: inline-flex;
+  size: 100%;
+}
+
+.home img {
+  width: 3rem;
+  height: 3rem;
+}
+
+
+.text, .question {
+    font-family: 'Castoro', serif;
+    font-weight: bold;
+    font-size: 1.5rem; 
+}
+
+ .choice-text {
+    font-family: 'Castoro', serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    display: -webkit-flex; 
+    display: flex;
+}
+
+.hr {
+  width: 90%;
+  align-self: center;
+  color: black;
+  size: 3em;
+}
+
+.img {
+    position: relative;
+    align-self: center;
+    width: 30%;
+}
+
+/*тест (форма)*/
+.test {
+    border: 3px solid black;
+    border-radius: 1rem;
+    padding: 0 3rem 3rem;
+    display: inline-block;
+
+    -moz-box-sizing: border-box; /* Для Firefox */
+    -webkit-box-sizing: border-box; /* Для Safari и Chrome */
+    box-sizing: border-box; /* Для IE и Opera */
+}
+
+label, .btn {
+    cursor: pointer;
+}
+/*кнопка*/
+.btn {
+    margin: 0;
+    height: 3rem;
+    width: 20rem;
+    background: #9B4A4A;
+    text-align: center;
+    color: #ffffff;
+    font: 2rem Tahoma, sans-serif;
+    border-radius: 1rem;
+}
+
+.btn:hover {;
+    color: #1B2F13;
+}
+
+.result-form {
+    font: 2rem Conthrax Bold;
+    text-align: center;
+}
+
+.info {
+    padding: 0 3rem;
+    display: inline-block;
+    flex-direction: column;
+}
+
+/*АДАПТИВ ДЛЯ ТЕЛЕФОНОВ*/
+@media (max-width: 767px) {
+    .info {
+        padding: 0 1rem;
+    }
+
+    .h2-text {
+        width: 25rem;
+    }
+
+    .h2-text, .number {
+        font-size: 1.4rem;
+    }
+    .text, .question {
+        font-size: 1.2rem;
+        display: inline-block;
+        text-align: center;
+    }
+
+    .img {
+        width: 27rem;
+        height: 18rem;
+    }
+
+    .test {
+        width: 18rem;
+    }
+
+    .choice-text {
+        font-size: 1.2rem;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    .btn {
+        height: 2rem;
+        width: 12rem;
+        font: 1rem Conthrax Book;
+    }
+}
